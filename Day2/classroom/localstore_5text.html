@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form onsubmit="event.preventDefault()" name="fdata">
+    UserName: <input type="text" name='uname' required/>
+    Email: <input type="email" name='email' required/>
+    Password: <input type="password" name='password' required/>
+    City: <input type="text" name='city' required/>
+    Mobile no.: <input type="number" name='mobile' required/>
+
+<button onclick="addData()">add</button>
+    </form>
+    <button onclick="showData()">show</button>
+    <br/>
+    <div id='show'></div>
+ <script src="localstore_5.js"></script>
+</body>
+</html>

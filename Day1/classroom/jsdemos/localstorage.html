@@ -1,0 +1,48 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Changing Button text on hovering using localStorage</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	
+</head>
+
+<body>
+	<input type="text" name="header"  required>
+<p><button onclick="action()" type="button">Save me!</button></p>
+<p><button onclick="action2()" type="button">Remember me!</button></p>
+
+<script>
+    function action() {
+        window.localStorage['header'] = document.getElementById('header').value;
+    }
+
+    function action2() {
+        document.getElementById('header').value = window.localStorage['header'];
+    }
+</script>
+</body>
+<script src="localstorage.html"></script>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form onsubmit="event.preventDefault()" name="fdata">
+UserName: <input type="text" name='uname' required/>
+<button onclick="addData()">add</button>
+    </form>
+    <button onclick="showData()">show</button>
+    <br/>
+    <div id='show'></div>
+ <script src="localstorage.js"></script>
+</body>
+</html>

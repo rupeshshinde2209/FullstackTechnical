@@ -1,0 +1,19 @@
+.rcorners1 {
+    border-radius: 20px; 
+    text-shadow: 2px 2px #00ffe5;
+  }
+
+  .bg-color{
+    background-color: #CBC3E3;
+  }
+
+  .gradient_1{
+    background: linear-gradient(rgb(0, 255, 225), pink)
+  }
+
+  .gradient_2{
+    background: linear-gradient(50deg, HSLA(205, 45%, 44%, 1), #7b2736)
+}
+.box-shadow{
+    box-shadow: 5px 10px #888888bd;
+}

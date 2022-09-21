@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Program to display the current date, month and year </h1>
+
+    <script>
+        const date = new Date();
+
+// get the date as a string
+const n = date.toDateString();
+
+// get the time as a string
+const time = date.toLocaleTimeString();
+
+// display date
+document.write(`Date : ${n}`)
+// console.log('Date: ' + n);
+document.write("</br>")
+
+// display time
+// console.log('Time: ' + time);
+document.write(`Time : ${time}`)
+
+    </script>
+</body>
+</html>
